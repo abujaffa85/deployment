@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple Calculator">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Simple Calculator</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    
+    <div class="grid-container" id="draggable">
+        
+        <div class="grid-item-display">0</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">+</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">-</div>
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">x</div>
+        <div class="grid-item">C</div>
+        <div class="grid-item">0</div>
+        <div class="grid-item">=</div>
+        <div class="grid-item">/</div>
+    </div>
+
+
+
+
+    <script src="calc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#draggable").draggable();
+        });      
+    </script>
+
+    <noscript>
+    </noscript>
+</body>
+
+</html>

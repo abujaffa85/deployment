@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin:400);
+
+body {
+  background-color: rgb(14, 13, 13);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196f3;
+  padding: 5px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px; 
+}
+
+/*.grid-container:active{
+    background-color: rgb(117, 1, 1);
+}*/
+
+
+div.grid-item:active{
+    background-color: rgb(248, 240, 240);
+}
+
+.grid-item,
+.grid-item-display {
+  font-family: "Cabin", helvetica, arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 5px;
+  
+}
+
+.grid-item {
+  background: linear-gradient(#333933, #222922);
+  border-color: rgb(153, 100, 51);
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.2), inset 0 0 5px rgba(0, 255, 0, 0.1),
+    0 2px 0 #000;
+  color: #efe;
+  outline: none;
+  width: 100px;
+}
+
+.grid-item {
+  background: linear-gradient(#333933, #222922);
+  border-color: rgb(153, 100, 51);
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.2), inset 0 0 5px rgba(0, 255, 0, 0.1),
+    0 2px 0 #000;
+  color: #efe;
+  outline: none;
+  width: 100px;
+}
+
+div.grid-item-display {
+  grid-column: 1 / 5;
+  background: linear-gradient(#333933, #222922);
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  color: rgb(55, 218, 55);
+  text-align: right;
+  font-size: 50px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 525px;
+}
+
+.grid-item:hover {
+  border: 1px solid rgba(4, 243, 171, 0.8);
+}
+
+
+/*  .center {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }*/
+
+

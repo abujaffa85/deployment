@@ -1,0 +1,2 @@
+*{box-sizing:border-box}body{display:flex;font-family:sans-serif;justify-content:center;margin:20px;padding:0}.square{background:#fff;border:1px solid #999;float:left;font-size:24px;font-weight:700;height:34px;line-height:34px;margin-right:-1px;margin-top:-1px;padding:0;text-align:center;width:34px}.board-row:after{clear:both;content:"";display:table}.status{margin-bottom:10px}
+/*# sourceMappingURL=main.7e6b0e14.css.map*/
