@@ -36,3 +36,20 @@ body {
 }
 /*# sourceMappingURL=main.7e6b0e14.css.map*/
 
+
+@media screen and (max-width: 768px) {
+  .square {
+    height: 5vh;
+    width: 5vh;
+  }
+
+  .status {
+    margin-bottom: 10px;
+    font-size: 0.5em;
+    font-weight: bold;
+  }
+
+  body {
+    font-size: 1em;
+  }
+}

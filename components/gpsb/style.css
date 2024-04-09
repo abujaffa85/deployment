@@ -152,3 +152,9 @@
 	top: 1px;
 }
 
+
+@media screen and (max-width: 768px) {
+	.webdesigntuts-workshop{
+		overflow-x:hidden;
+	}
+  }
